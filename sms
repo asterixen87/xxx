@@ -1,0 +1,6 @@
+curl -X "POST" "https://rest.nexmo.com/sms/json" \
+  -d "from=polis" \
+  -d "text=ditt brandlarm går därhemma!!!" \
+  -d "to=46700137276" \
+  -d "api_key=6d834cd8" \
+  -d "api_secret=vjaADkgy7l6N5eNy"
